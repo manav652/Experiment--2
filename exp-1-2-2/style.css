@@ -26,16 +26,6 @@ body {
     text-decoration: underline;
 }
 
-.topbar {
-  background-color: red; 
-  padding: 12px;
-}
-.topbar a {
-  color: white;
-  font-size: 16px;
-  font-weight: 500;
-  font: bold;
-}
 .card {
     background-color: lightgray;
     padding: 10px;
