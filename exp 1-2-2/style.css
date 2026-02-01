@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    background-color: #1f2d3d;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+.topbar {
+  background-color: red; 
+  padding: 12px;
+}
+.topbar a {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font: bold;
+}
+.card {
+    background-color: lightgray;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 0.5cm;
+}
+.electronics {
+    color: blue;
+    font-weight: bold;
+    margin-left: 8px;
+}
+.clothing {
+    color: green;
+    font-weight: bold;
+    margin-left: 8px;
+}

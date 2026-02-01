@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Character Count</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+    <div class="logo">Experiment 2</div>
+    <nav>
+        <a href="../exp 1.2.1/index.html">Experiment 2.1</a>
+        <a href="../exp 1.2.2/index.html">Experiment 2.2</a>
+        <a href="../exp 1.2.3/index.html">Experiment 2.3</a>
+    </nav>
+</header>
+
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-message"></i> Message Box</h1>
+            <p>Type your message below</p>
+        </div>
+        
+        <div class="input-container">
+            <textarea id="messageInput" placeholder="Type your message here..." maxlength="150"></textarea>
+            <div class="counter">
+                <span id="charCount">0</span>/150
+            </div>
+        </div>
+        
+        <div class="controls">
+            <div class="format-buttons">
+                <button id="boldBtn" class="format-btn">
+                    <i class="fas fa-bold"></i>
+                </button>
+                <button id="italicBtn" class="format-btn">
+                    <i class="fas fa-italic"></i>
+                </button>
+                <button id="emojiBtn" class="format-btn">
+                    <i class="far fa-smile"></i>
+                </button>
+            </div>
+            
+            <button id="submitBtn" class="submit-btn">
+                <i class="fas fa-paper-plane"></i> Post
+            </button>
+        </div>
+        
+        <div class="preview">
+            <h3><i class="fas fa-eye"></i> Preview</h3>
+            <div id="messagePreview" class="preview-content">
+                Your message will appear here...
+            </div>
+        </div>
+        
+        <div id="notification" class="notification">
+            <i class="fas fa-check-circle"></i> Message posted!
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

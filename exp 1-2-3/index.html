@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experiment 2.3 - Drawing Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+    <div class="logo">Experiment 2</div>
+    <nav>
+        <a href="../exp 1.2.1/index.html">Experiment 2.1</a>
+        <a href="../exp 1.2.2/index.html">Experiment 2.2</a>
+        <a href="../exp 1.2.3/index.html">Experiment 2.3</a>
+    </nav>
+</header>
+
+    <h2>Drawing Board</h2>
+
+    <div class="tools">
+        <label>Color:</label>
+        <input type="color" id="colorPicker">
+
+        <label>Brush Size:</label>
+        <input type="range" id="brushSize" min="1" max="20" value="5">
+
+        <button id="clearBtn">Clear</button>
+    </div>
+
+    <canvas id="canvas" width="800" height="400"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
